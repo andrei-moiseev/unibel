@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy-Bold'),
+        url('font/Gilroy-Bold.eot') format('eot'),
+        url('font/Gilroy-Bold.woff') format('woff'),
+        url('font/Gilroy-Bold.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy-Medium'),
+        url('font/Gilroy-Medium.eot') format('eot'),
+        url('font/Gilroy-Medium.woff') format('woff'),
+        url('font/Gilroy-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy-Light'),
+        url('font/Gilroy-Light.eot') format('eot'),
+        url('font/Gilroy-Light.woff') format('woff'),
+        url('font/Gilroy-Light.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --main-color-blue: #2C79CA;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden scroll !important;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+}
+
+main {
+    height: 100vh;
+}
+
+#introduction {
+    background: url('https://drive.google.com/uc?export=download&id=1jN1lHPXe1wm6uwwT7q2UIHork9eAz64p') no-repeat left top / cover;
+    height: 100%;
+}
+
+#introduction_rev {
+    background: url('https://drive.google.com/uc?export=download&id=14NhkF-jGVrGAAAfPtUuWhkLbuTRfv-ks') no-repeat left top / cover;
+    height: 100%;
+}
+
+#introduction-header {
+    font-family: Gilroy, sans-serif;
+    font-weight: 900;
+    font-size: 8vmin;
+}
+
+#slogan {
+    font-family: Gilroy, sans-serif;
+    font-weight: 400;
+    font-size: 4vmin;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 #0F4C75, 1px -1px 0 #0F4C75, -1px 1px 0 #0F4C75, -1px -1px 0 #0F4C75, 1px 0px 0 #0F4C75, 0px 1px 0 #0F4C75, -1px 0px 0 #0F4C75, 0px -1px 0 #0F4C75;
+    margin-top: 10vh;
+}
+
+#button_application {
+    margin-bottom: 10vh;
+}
+
+#translate {
+    width: 30px;
+    height: 30px;
+}
+
+
+.progress {
+    background-color: #BBE1FA !important;
+    height: 7px !important;
+}
+
+.header-blue-shadow {
+    text-shadow: 3px 3px 0px #377bc3, 4px 4px 0px #000000;
+}
+
+.header-white-shadow {
+    text-shadow: 3px 3px 0px #f1efef, 4px 4px 0px #000000;
+}
+
+.fa-language {
+    color: var(--main-color-blue);
+    font-size: 37px;
+}
+
+.nav-link {
+    text-align: center;
+    color: var(--main-color-blue);
+    text-transform: uppercase;
+    font-size: 16pt;
+    padding: 0 !important;
+}
