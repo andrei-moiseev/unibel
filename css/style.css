@@ -61,9 +61,6 @@ h1 {
     font-size: 8vmin !important;
 }
 
-p {
-    font-size: 2.5vmin;
-}
 
 #introduction {
     background: url('https://drive.google.com/uc?export=download&id=1jN1lHPXe1wm6uwwT7q2UIHork9eAz64p') no-repeat left top / cover;
@@ -84,7 +81,7 @@ p {
     margin-top: 10vh;
 }
 
-#button_application {
+#button-application {
     background: var(--main-color-blue);
     color: white;
     font-size: 2vmax;
@@ -92,7 +89,7 @@ p {
     margin-top: 15vh;
 }
 
-#button_application:hover {
+#button-application:hover {
     box-shadow: 0 0 10px black;
     transition: all 0.6s ease;
     transform: scale(1.05);
@@ -108,18 +105,30 @@ p {
     height: max-content;
 }
 
+#about-us p {
+    font-size: 1.5vmax;
+}
+
 #services, #client-path {
     background-color: var(--main-color-blue);
     height: 100vh;
 }
 
-#why_me, #promotions, #our-contacts {
+#why-bel, #promotions, #our-contacts {
     background-color: white;
     height: 100vh;
 }
 
 #team-img {
     width: 100%;
+}
+
+#why-bel i {
+    font-size: 2.5vmax;
+}
+
+#why-bel p {
+    font-size: 1.3vmax;
 }
 
 .progress {
@@ -155,4 +164,24 @@ p {
 
 .bg-main-color {
     background-color: var(--main-color-blue);
+}
+
+.border-right-elem {
+    border-right: 1px solid;
+}
+
+.border-bottom-elm {
+    border-bottom: 0;
+}
+
+@media (max-width: 576px) {
+
+    .border-right-elem {
+        border-right: 0px;
+    }
+
+    .border-bottom-elm {
+        border-bottom: 1px solid;
+    }
+
 }
