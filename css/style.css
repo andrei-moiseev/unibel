@@ -51,6 +51,10 @@ main {
     height: 100vh;
 }
 
+a, a:hover {
+    text-decoration: none !important;
+}
+
 #introduction {
     background: url('https://drive.google.com/uc?export=download&id=1jN1lHPXe1wm6uwwT7q2UIHork9eAz64p') no-repeat left top / cover;
     height: 100%;
@@ -77,7 +81,17 @@ main {
 }
 
 #button_application {
-    margin-bottom: 10vh;
+    background: var(--main-color-blue);
+    color: white;
+    font-size: 2vmax;
+    width: max-content;
+    margin-top: 15vh;
+}
+
+#button_application:hover {
+    box-shadow: 0 0 10px black;
+    transition: all 0.6s ease;
+    transform: scale(1.05);
 }
 
 #translate {
@@ -85,6 +99,15 @@ main {
     height: 30px;
 }
 
+#about-us, #services, #client-path {
+    background-color: var(--main-color-blue);
+    height: 100vh;
+}
+
+#why_me, #promotions, #our-contacts {
+    background-color: white;
+    height: 100vh;
+}
 
 .progress {
     background-color: #BBE1FA !important;
@@ -110,4 +133,8 @@ main {
     text-transform: uppercase;
     font-size: 16pt;
     padding: 0 !important;
+}
+
+.text-main-color {
+    color: var(--main-color-blue) !important;
 }
