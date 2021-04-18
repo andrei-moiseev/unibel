@@ -100,23 +100,22 @@ h1 {
     height: 30px;
 }
 
-#about-us {
-    background-color: var(--main-color-blue);
-    height: max-content;
-}
-
 #about-us p {
     font-size: 1.5vmax;
 }
 
-#services, #client-path {
+#about-us h2 {
+    font-size: 2vmax;
+}
+
+#about-us, #services, #client-path {
     background-color: var(--main-color-blue);
-    height: 100vh;
+    height: max-content;
 }
 
 #why-bel, #promotions, #our-contacts {
     background-color: white;
-    height: 100vh;
+    height: max-content;
 }
 
 #team-img {
