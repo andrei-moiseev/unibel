@@ -55,20 +55,24 @@ a, a:hover {
     text-decoration: none !important;
 }
 
+h1 {
+    font-family: Gilroy, sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 8vmin !important;
+}
+
+p {
+    font-size: 2.5vmin;
+}
+
 #introduction {
     background: url('https://drive.google.com/uc?export=download&id=1jN1lHPXe1wm6uwwT7q2UIHork9eAz64p') no-repeat left top / cover;
     height: 100%;
 }
 
 #introduction_rev {
-    background: url('https://drive.google.com/uc?export=download&id=14NhkF-jGVrGAAAfPtUuWhkLbuTRfv-ks') no-repeat left top / cover;
+    background: url('https://drive.google.com/uc?export=download&id=14NhkF-jGVrGAAAfPtUuWhkLbuTRfv-ks') no-repeat 63% top / cover;
     height: 100%;
-}
-
-#introduction-header {
-    font-family: Gilroy, sans-serif;
-    font-weight: 900;
-    font-size: 8vmin;
 }
 
 #slogan {
@@ -99,7 +103,12 @@ a, a:hover {
     height: 30px;
 }
 
-#about-us, #services, #client-path {
+#about-us {
+    background-color: var(--main-color-blue);
+    height: max-content;
+}
+
+#services, #client-path {
     background-color: var(--main-color-blue);
     height: 100vh;
 }
@@ -109,9 +118,14 @@ a, a:hover {
     height: 100vh;
 }
 
+#team-img {
+    width: 100%;
+}
+
 .progress {
     background-color: #BBE1FA !important;
     height: 7px !important;
+    border-bottom: 1px solid black;
 }
 
 .header-blue-shadow {
@@ -137,4 +151,8 @@ a, a:hover {
 
 .text-main-color {
     color: var(--main-color-blue) !important;
+}
+
+.bg-main-color {
+    background-color: var(--main-color-blue);
 }
