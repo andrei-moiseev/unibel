@@ -58,7 +58,8 @@ a, a:hover {
 h1 {
     font-family: Gilroy, sans-serif !important;
     font-weight: 900 !important;
-    font-size: 8vmin !important;
+    /*font-size: 8vmin !important;*/
+    font-size: 3.7vmax !important;
 }
 
 
@@ -75,7 +76,7 @@ h1 {
 #slogan {
     font-family: Gilroy, sans-serif;
     font-weight: 400;
-    font-size: 4vmin;
+    font-size: 2.1vmax;
     color: #FFFFFF;
     text-shadow: 1px 1px 0 #0F4C75, 1px -1px 0 #0F4C75, -1px 1px 0 #0F4C75, -1px -1px 0 #0F4C75, 1px 0px 0 #0F4C75, 0px 1px 0 #0F4C75, -1px 0px 0 #0F4C75, 0px -1px 0 #0F4C75;
     margin-top: 10vh;
@@ -124,6 +125,7 @@ h1 {
 
 #why-bel i {
     font-size: 3vmax;
+    padding: 1rem 0;
 }
 
 #why-bel p {
