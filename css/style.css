@@ -1,3 +1,9 @@
+/*Variables*/
+:root {
+    --main-color-blue: #2C79CA;
+}
+
+/*Fonts*/
 @font-face {
     font-family: 'Gilroy';
     src: local('Gilroy-Bold'),
@@ -28,10 +34,8 @@
     font-style: normal;
 }
 
-:root {
-    --main-color-blue: #2C79CA;
-}
 
+/*Tags*/
 html {
     scroll-behavior: smooth;
 }
@@ -63,6 +67,7 @@ h1 {
 }
 
 
+/*Id elements*/
 #introduction {
     background: url('https://drive.google.com/uc?export=download&id=1jN1lHPXe1wm6uwwT7q2UIHork9eAz64p') no-repeat left top / cover;
     height: 100%;
@@ -78,7 +83,7 @@ h1 {
     font-weight: 400;
     font-size: 2.1vmax;
     color: #FFFFFF;
-    text-shadow: 1px 1px 0 #0F4C75, 1px -1px 0 #0F4C75, -1px 1px 0 #0F4C75, -1px -1px 0 #0F4C75, 1px 0px 0 #0F4C75, 0px 1px 0 #0F4C75, -1px 0px 0 #0F4C75, 0px -1px 0 #0F4C75;
+    text-shadow: 2px 2px 0 #0F4C75, 2px -2px 0 #0F4C75, -2px 2px 0 #0F4C75, -2px -2px 0 #0F4C75, 2px 0px 0 #0F4C75, 0px 2px 0 #0F4C75, -2px 0px 0 #0F4C75, 0px -2px 0 #0F4C75;
     margin-top: 10vh;
 }
 
@@ -119,10 +124,6 @@ h1 {
     height: max-content;
 }
 
-#team-img {
-    width: 100%;
-}
-
 #why-bel i {
     font-size: 3vmax;
     padding: 1rem 0;
@@ -132,6 +133,8 @@ h1 {
     font-size: 1.3vmax;
 }
 
+
+/*Classes*/
 .progress {
     background-color: #BBE1FA !important;
     height: 7px !important;
@@ -175,6 +178,12 @@ h1 {
     border-bottom: 0;
 }
 
+.team-img {
+    width: 100%;
+}
+
+
+/*Media quarries*>
 @media (max-width: 576px) {
 
     #slogan {
