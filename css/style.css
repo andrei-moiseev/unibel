@@ -175,6 +175,10 @@ h1 {
 
 @media (max-width: 576px) {
 
+    #slogan {
+        width: 50vw;
+    }
+
     .border-right-elem {
         border-right: 0px;
     }
